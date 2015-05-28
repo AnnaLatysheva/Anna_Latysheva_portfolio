@@ -1,0 +1,93 @@
+body { font-family: Times New Roman, serif;}
+.connect_icons,
+.connect_icons,
+.nav-bar,
+.free_quote ,
+footer ul, 
+.location, 
+.pointer, 
+span,
+.separate-line { display: none; }
+a {
+        color: #3b40ff;
+        text-decoration: underline;
+       }
+a[href="^http://"]:after{
+    content:"(" attr(href)")";
+    font-size: 16pt;
+}
+a:after{
+    content:"(" attr(href)")";
+    font-size: 16pt;
+	color: #3b40ff;
+    text-decoration: underline; 
+    }
+.recent_projects a:after,
+.twitter a:after,
+.from_blog a:after { display: block;
+                    text-transform: lowercase;
+                }
+header:after  {content: url(https://chart.googleapis.com/chart?cht=qr&chs=100x100&chl=http://Somesite.com)}
+
+article h1,
+header h1 a,
+section h1,
+.content p,
+.btn, 
+input[type="submit"],
+.btn-blog, 
+.who_we a ,
+.content a,
+time, 
+.continue,
+footer p,
+.from_blog p,
+.twitter p,
+.twitter time,
+.tab p,
+.tabs li a,
+.who_we p{
+        font-size: 18pt;
+        color: #000;
+	    font-family: Times New Roman, serif;
+	}
+.footer, 
+aside {page-break-inside: avoid;}
+
+.btn, input[type="submit"] {
+                           border: none;
+						   color: #000;
+						}
+.tab {display: block; }
+.btn-blog {box-shadow: none;} 
+.welcome {border-bottom: 1px solid #000;}
+.bar-tabs {padding: 0;}
+.sec-preview,
+.img-preview {box-shadow: none;}
+.from_blog, aside {float: none; width: 100%;}
+.bar-tabs, .tabs, .tab-content, .tabs  .active {position: static;}
+.tabs ul li.active ,
+.tabs  .active:after {border-right: none; }
+.tabs ul li {border-bottom: 1px solid transparent;}
+.tab p:first-of-type{ 
+					 border-bottom: none;
+                     padding: 0 5px 14px 14px;					 
+					}
+.tab p:nth-of-type(2) { 
+                      padding: 14px 5px 0 14px;
+					  border-top: none;
+					  }
+.tab { 
+        border-top: 1px solid #000;
+	    margin: 10px 0 0 0;
+	}
+.footer {display: block;}
+.portfolio,
+.btn-blog,
+.follow { font-size: 14pt; 
+          padding: 0; 
+		  width: 150px; 
+		  float: none;
+          text-align: left;
+		}
+.welcome {padding: 50px 0 0 0;}
