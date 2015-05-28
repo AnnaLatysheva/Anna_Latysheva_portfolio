@@ -1,0 +1,321 @@
+
+@media only screen and (min-width : 1025px){
+/*Common*/
+h1 { font-size: 6em;}
+p{ font-size: 2em;}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 0.65em;
+}
+.subheading  { font-size: 2.7em;}
+h3 { font-size: 3.2em; }
+.callout-link  { font-size: 1.7em; }
+
+/*Header*/
+.header .header-content {
+    margin-top: 11em;
+	padding-bottom: 11em;
+}
+.header .nav li a { font-size: 2em; }
+.header-content h1 { text-shadow: 0 0 15px #000;}
+
+/*Section iPad*/
+.ipad{
+    padding: 4em 0 15em 0;
+    background-position: top right 25%;
+}
+
+/*Buttons*/
+.btn-large {
+    font-size: 2.7em;
+    padding: 0.5em 0.6em;	
+}
+.btn-medium{
+    font-size: 1.7em; 
+	padding: 0.4em 0.7em;
+}
+
+/*Footer*/
+.footer p { font-size: 1.5em;}
+}
+
+
+
+@media only screen and (max-width: 1024px){
+/*Common*/
+h1 { font-size: 4.5em;}
+p{ font-size: 2em; }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 0.7em;
+}
+.subheading  { font-size: 2.5em;}
+h3 { font-size: 3.5em; }
+.callout-link  { font-size: 2.1em;}
+
+/*Header*/
+.header .header-content {
+    margin-top: 8em;
+	padding-bottom: 8em;
+}
+.header .nav li a { font-size: 1.5em;}
+.header-content h1 { text-shadow: 0 0 15px #000;}
+
+/*Section iPad*/
+.ipad{
+    padding: 5em 0 5em 0;
+    background-position: top right 25%;
+}
+
+/*Buttons*/
+.btn-large {
+    font-size: 2.5em;
+    padding: 0.6em 0.8em;	
+}
+.btn-medium{
+    font-size: 1.7em; 
+	padding: 0.4em 0.9em;
+}
+
+/*Footer*/
+.footer p { font-size: 1.7em; }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 979px) { 
+     /* Common */
+.subheading  {font-size: 2em;}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 0.6em;
+}
+p{font-size: 2em;}
+h3 { font-size: 3em;}
+.callout-link  { font-size: 1.8em; }
+
+/* Header Content */
+.header .header-content {
+    margin: 3em;
+	padding-bottom: 3em;
+}
+h1 { font-size: 4.5em; }
+.header-content h1 { text-shadow: 0 0 15px #000;}
+.header .nav li a {font-size: 1.4em; }
+
+
+/*Section iPad*/
+.ipad{
+    padding: 4em 0 4em 0;
+    background-position: top right 25%;
+}
+.ipad p { margin-bottom: 3.3em;}
+
+/* Buttons */
+.btn-medium{
+    font-size: 1.2em;
+    padding: 0.7em 1.2em;
+}
+.btn-large {
+    padding: 0.7em 0.9em;
+    font-size: 2em;	
+}
+
+}
+
+
+ @media only screen and (max-width: 768px) { 
+ /* Common */
+.subheading  { font-size: 1.8em; }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 0.7em;
+}
+h1 { font-size: 3.5em;}
+h3{ font-size: 2.7em;}
+p{ font-size: 1.8em;}
+.callout-link  { font-size: 1.5em; }
+
+/* Header */
+.header .nav li {
+    display: inline-block;
+	padding: 1.9em;
+
+}
+.column-wide{ width: 100%; }
+.header .nav{ 
+    width: 100%; 
+	text-align: center; 
+	padding: 0;
+    margin: 0;
+	border-radius: 0;
+	}
+.menu {
+    padding: 0;
+	margin: 0;
+    }
+.header .main-nav{ width: 100%;}
+.header .nav li a {font-size: 1.6em; }
+.header { background-position: top right 25%;}
+.header .header-content {
+    margin-top: 5em;
+	padding-bottom: 5em;
+}
+.header-content h1 { text-shadow: 0 0 15px #000;}
+
+/*Section iPad*/
+.ipad{
+    padding: 3.5em 0 3.5em 0;
+    background-position: top center;
+}
+.ipad p {
+    color: rgba(255,255,255,1) !important;
+    margin-bottom: 1.6em;
+    text-shadow: 0 0 15px #000;
+}
+.ipad h3 { color: rgba(255,255,255,0.5) !important;}
+
+/* Buttons */
+.btn-large {
+    padding: 0.6em 0.8em;
+    font-size: 1.7em;	
+}
+.btn-medium{
+    font-size: 1.1em;
+    padding: 0.7em 1.2em;
+}
+
+ }
+@media only screen and (min-width : 481px) and (max-width: 670px){
+/* Common */
+.subheading  { font-size: 1.8em; }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 0.7em;
+}
+h1 { font-size: 3.5em;}
+h3{ font-size: 2.7em;}
+p{ font-size: 1.8em;}
+.callout-link  { font-size: 1.5em; }
+.column-wide{ width: 100%; }
+.column-half{width: 100%; }
+
+/* Header */
+.header .nav li {
+    display: inline-block;
+	padding: 1.5em;
+	margin: 0;	
+}
+
+.header .nav{ 
+    width: 100%; 
+	text-align: center; 
+	padding: 0;
+	}
+.header .nav li a {font-size: 1.5em;}
+.header { background-position: top right 25%;}
+.header .header-content {
+    margin-top: 5em;
+	padding-bottom: 5em;
+}
+.header-content h1 { text-shadow: 0 0 15px #000;}
+
+/*Section iPad*/
+.ipad{
+    padding: 3.5em 0 3.5em 0;
+    background-position: top center;
+}
+.ipad p {
+    color: rgba(255,255,255,1) !important;
+    margin-bottom: 1.6em;
+    text-shadow: 0 0 15px #000;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 1em;
+}
+.ipad h3 { color: rgba(255,255,255,0.5) !important;}
+
+/* Buttons */
+.btn-large {
+    padding: 0.6em 0.8em;
+    font-size: 1.8em;	
+}
+.btn-medium{
+    font-size: 1.1em;
+    padding: 0.7em 1.2em;
+}
+
+}
+ 
+ 
+@media only screen  and (max-width: 480px) { 
+  
+  /* Common */
+.subheading  { font-size: 1.4em; }
+.column-wide{ width: 100%; }
+.centered h1 { font-size: 2.7em; }
+h3 { font-size: 2.5em; }
+.column-half{ width: 100%; }
+p{ font-size: 1.7em; } 
+.image-ex img{
+    max-width: 100%;
+    height: auto;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 0.6em; }
+.callout-link  { font-size: 1.5em; }
+
+/* Header Navigation */
+.header .nav li {
+    display:block;
+	text-align: justify;
+	padding: 1em;
+	margin: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+.header .nav li:last-child { border-bottom:none;}
+.header .nav li a{ 
+         font-size: 1.1em; 
+         margin: 1.5em;
+		 }
+.header .main-nav{ position: relative;}
+.header .nav { padding: 0.1em; }
+
+/* Header Content */
+.header .main-nav{ width: 100%; }
+.header { background-position: bottom right 25%; }
+.header .header-content {
+    margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.header-content h1 {
+    font-size: 2.7em;
+    text-shadow: 0 0 15px #000;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*Section iPad*/
+.ipad{
+    padding: 1em 0 1em;
+    background-position: bottom center;
+}
+
+.ipad p {
+    color: rgba(255,255,255,1) !important;
+    margin-bottom: 1.9em;
+	text-shadow: 0 0 15px #000;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 1em;
+}
+.ipad h3 {
+    color: rgba(255,255,255,0.6) !important;
+}
+
+/* Buttons */
+.btn-large {
+    padding: .6em .8em;
+    font-size: 1.6em;
+	
+}
+.btn-medium{
+    font-size: 1.1em;
+    padding: .6em .7em;
+}
+
+ /*Footer*/
+.footer p { font-size: 1.1em; }
+
+ }

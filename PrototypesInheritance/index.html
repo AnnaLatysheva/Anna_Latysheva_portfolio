@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/all.css">
+
+
+</head>
+<link>
+<body>
+<div id="wrapper">
+    <div class="get-data">
+        <button onclick="loadXMLDoc()" class="get-btn">Get employees info</button>
+        <button class="get-btn" onclick="loadFromServer()">Load from server</button>
+        <textarea id="info" rows="50"></textarea>
+    </div>
+    <div class="tools">
+        <button class="tool-btn" id="employee-collection" onclick="HoleCollection()">Hole employees collection</button>
+        <button class="tool-btn" onclick="showFirst()">First 5 name</button>
+        <button class="tool-btn" onclick="showLast()">Last 3 id</button>
+        <div class="control">
+            <ul id="control-panel" class="visible"></ul>
+        </div>
+
+</div>
+    </div>
+<script src="js/classes_inheritance.js"></script>
+<script src="js/task.js"></script>
+</body>
+</html>

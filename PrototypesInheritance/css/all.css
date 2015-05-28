@@ -1,0 +1,64 @@
+body, html{
+    height: 100%;
+    background-color: #080b22;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+#wrapper{
+    min-height: 100%;
+    max-width: 1900px;
+    padding: 10px;
+    overflow: hidden;
+}
+.get-data{
+    float: left;
+    display: inline-block;
+    width: 40%;
+}
+.tools{
+    width: 50%;
+    float: right;
+    display: inline-block;
+    background-color: #152132;
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 7px;
+    color: #081322;
+    font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+textarea{
+    background-color: #393c4e;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    resize: none;
+}
+.tool-btn{
+    display: inline-block;
+    font-size: .87em;
+    padding: 7px;
+    background: linear-gradient(to top, #080b22, #1e3048);
+    color: rgba(255, 255, 255, .7);
+}
+.get-btn{
+    background: linear-gradient(to top, #dbdbdb, #fefefe);
+
+}
+.visible{
+    color: #fff;
+}
+.visible li{
+    list-style: decimal;
+}

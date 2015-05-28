@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SegoeWPLight';
+    src: url('fonts/SegoeWPLight.eot');
+    src: url('fonts/SegoeWPLight.eot') format('embedded-opentype'),
+         url('fonts/SegoeWPLight.woff2') format('woff2'),
+         url('fonts/SegoeWPLight.woff') format('woff'),
+         url('fonts/SegoeWPLight.ttf') format('truetype'),
+         url('fonts/SegoeWPLight.svg#SegoeWPLight') format('svg');
+}

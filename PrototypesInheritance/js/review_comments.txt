@@ -1,0 +1,11 @@
+EmployeeFixedSalary = function (id, name, salary) {
+    this.type = 'FixedSalaryEmployee'; // this property is not needed. Class name is self-explaining
+    this.id = id;
+    this.name = name;
+    this.salary = salary;
+    this.getSalary = function () { // This function will be cloned in every instane of this class
+        return salary;
+    }
+};
+
+var l = new CollectionEmployees(); // What `l` variable means? It's completelly meanignless variable name
