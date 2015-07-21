@@ -1,0 +1,47 @@
+.box-sizing(@b-sizing: border-box) {
+  -ms-box-sizing: @b-sizing;
+  -moz-box-sizing: @b-sizing;
+  -webkit-box-sizing: @b-sizing;
+  box-sizing: @b-sizing;
+}
+
+.border-radius(@b-radius) {
+  -webkit-border-radius: @b-radius;
+  -moz-border-radius: @b-radius;
+  -ms-border-radius: @b-radius;
+  border-radius: @b-radius;
+}
+
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.justify-content(@space) {
+  justify-content: @space;
+  -webkit-justify-content: @space;
+  -moz-justify-content: @space;
+}
+
+.box-shadow(@b-shadow) {
+  -webkit-box-shadow: @b-shadow;
+  -moz-box-shadow: @b-shadow;
+  box-shadow: @b-shadow;
+}
+
+.bg-gradient(@color-begin, @color-end) {
+  background: @color-begin;
+  background: -moz-linear-gradient(top, @color-begin 0%, @color-end 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, @color-begin), color-stop(100%, @color-end));
+  background: -webkit-linear-gradient(top, @color-begin 0%, @color-end 100%);
+  background: -o-linear-gradient(top, @color-begin 0%, @color-end 100%);
+  background: -ms-linear-gradient(top, @color-begin 0%, @color-end 100%);
+  background: linear-gradient(to bottom, @color-begin 0%, @color-end 100%);
+}
+
+.transition(@param) {
+  -webkit-transition: @param;
+  -moz-transition: @param;
+  -o-transition: @param;
+  transition: @param;
+}
