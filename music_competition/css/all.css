@@ -1,0 +1,989 @@
+/*------------------------main page------------------------*/
+body, html {
+    height: 100%;
+    font-family: 'PTSansRegular', Helvetica, serif;
+}
+
+#wrapper {
+    min-height: 100%;
+    min-width: 1110px;
+    padding-bottom: 117px;
+}
+
+header {
+    border-top: 7px solid #a5e350;
+}
+
+.center {
+    width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main-nav li {
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    margin-left: 17px;
+    padding: 7px 0 3px 0;
+}
+
+.main-nav li:first-child {
+    margin-left: 0;
+}
+
+nav {
+    float: left;
+    padding: 23px 0 24px 6px;
+    overflow: hidden;
+}
+
+.main-nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #373737;
+    line-height: 1;
+}
+
+.main-nav li.active-menu-item {
+    border-bottom: 1px solid #a5e350;
+}
+
+.main-nav li:hover {
+    border-bottom: 1px solid #a5e350;
+}
+
+.logo-img {
+    width: 76px;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+}
+
+.control-panel {
+    float: right;
+    padding: 23px 0 20px 0;
+}
+
+.search {
+    display: inline-block;
+    position: relative;
+}
+
+.localization {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #373737;
+    font-size: 14px;
+}
+
+.search-line {
+    padding: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    outline: none;
+    width: 20px;
+    border: 1px outset transparent;
+    color: transparent;
+    transition: 1s ease;
+}
+
+.search-line:hover {
+    width: 200px;
+    transition: 1s ease;
+    border: 1px outset #a5e350;
+    color: #515151;
+}
+
+label {
+    background: url(../icon_svg/i-search.png) no-repeat;
+    padding: 13px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+
+.active-loc {
+    border-bottom: 1px solid #a5e350;
+}
+
+.additional-heder {
+    background-color: #000;
+}
+
+.apply-block {
+    max-width: 940px;
+    background: url(../images/header.jpg) no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    padding: 40px 0 53px 0;
+    margin: 0 auto;
+
+}
+
+.apply-block h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.apply-block p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: 'PTSansItalic', Helvetica, serif;
+}
+
+.apply-btn {
+    padding: 12px 35px 12px 35px;
+    background-color: #a5e350;
+    text-transform: uppercase;
+    color: #020300;
+    font-family: 'PTSansBold', serif;
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 27px;
+}
+
+/*sections*/
+.winners-video {
+    overflow: hidden;
+}
+
+section {
+    margin: 44px auto;
+    width: 940px;
+}
+
+.video-holder {
+    margin-top: 20px;
+}
+
+.winners-list {
+    float: right;
+    height: 390px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 202px;
+}
+
+.winners-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.winners-list li img {
+    width: 200px;
+    height: 120px;
+}
+
+.winners-list li:last-child {
+    margin-bottom: 0;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #373737;
+}
+
+section h1:before,
+section h1:after {
+    content: '';
+    display: inline-block;
+    border: 1px solid #373737;
+    vertical-align: middle;
+    width: 145px;
+    margin: 0 12px 0 8px;
+}
+
+span.time {
+    color: #8d8d8d;
+    font-size: 10px;
+    width: 195px;
+    display: block;
+    text-align: right;
+    margin: 6px 0 14px 0;
+}
+
+.new h2 {
+    color: #373737;
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+.new p {
+    color: #3e4239;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.news {
+    margin-top: 62px;
+}
+
+.new {
+    width: 300px;
+    border-left: 7px solid #6a6a6a;
+    display: inline-block;
+    position: relative;
+    margin: 0 190px 48px 0;
+    background-color: #efefef;
+}
+
+.left-new {
+    margin: 0 0 48px 0;
+}
+
+.new-holder {
+    width: 195px;
+    padding: 50px 0 54px 14px;
+}
+
+.new:hover {
+    background-color: #a5e350;
+}
+
+.news-img {
+    position: absolute;
+    top: 44px;
+    left: 218px;
+}
+
+.active {
+    background-color: #a5e350;
+}
+
+.read-more {
+    padding: 7px;
+    background: url(../images/more-icon.png) no-repeat;
+    right: 7px;
+    position: absolute;
+    bottom: 7px;
+}
+
+.video-winner {
+    width: 637px;
+}
+
+.last-winners {
+    width: 200px;
+}
+
+/*Footer*/
+footer {
+    background-color: #6a6a6a;
+    border-top: 7px solid #b0e766;
+    font-family: 'PTSansBold', serif;
+    height: 127px;
+    margin-top: -127px;
+    min-width: 1110px;
+}
+
+.small-footer {
+    background-color: #515151;
+    padding: 12px 0;
+    color: #fcfafa;
+    font-size: 14px;
+}
+
+.contacts {
+    float: right;
+    padding: 32px 0;
+    text-align: center;
+}
+
+.contacts a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contacts a:hover {
+    color: #b0e766;
+}
+
+.brand-name {
+    display: none;
+}
+
+.social-links {
+    float: left;
+    padding: 26px 0 23px 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 37px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    font-size: 42px;
+}
+
+.icon-facebook:hover .path1:before {
+    content: "\e600";
+    color: rgb(59, 89, 152);
+}
+
+.icon-twitter:hover .path1:before {
+    content: "\e602";
+    color: rgb(85, 172, 238);
+}
+
+.icon-vkontakte:hover .path1:before {
+    content: "\e605";
+    color: rgb(76, 117, 163);
+}
+
+.icon-youtube:hover .path1:before {
+    content: "\e607";
+    color: rgb(207, 34, 0);
+}
+
+.icon-youtube:hover .path2:before {
+    content: "\e608";
+    margin-left: -1em;
+    color: rgb(207, 34, 0);
+}
+
+/*------------------------Competition page------------------------*/
+.full-section {
+    width: 100%;
+}
+
+.about-competition {
+    background-color: #d3d3d5;
+    margin-top: 27px;
+    padding: 18px 0 18px 0;
+}
+
+.full-section h2 {
+    color: #383937;
+    font-size: 25px;
+    font-family: 'PTSansCaptionBold', serif;
+    text-align: center;
+}
+
+.full-section p {
+    font-size: 18px;
+    font-family: 'PTSansRegular', Helvetica, serif;
+    line-height: 1.5;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.home-competition,
+.violin-competition {
+    float: right;
+    width: 600px;
+    margin-top: 38px;
+    padding-top: 10px;
+}
+
+.how-apply {
+    background-color: #a5e350;
+    margin-top: 65px;
+}
+
+.how-apply h2 {
+    text-transform: uppercase;
+    font-family: 'PTSansCaptionBold', serif;
+}
+
+.apply-img {
+    float: right;
+}
+
+.apply-info {
+    float: left;
+    width: 490px;
+    padding-top: 20px;
+}
+
+.about-img {
+    margin-top: 38px;
+    float: left;
+}
+
+.competition-items {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.competition-item {
+    width: 270px;
+    text-align: justify;
+}
+
+.competition-item h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.icon-comp {
+    padding: 30px 0 30px 0;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+}
+
+.i-time {
+    background: url(../icon_svg/comp-icons.png) no-repeat -40px -40px;
+}
+
+.i-jury {
+    background: url(../icon_svg/comp-icons.png) no-repeat -40px -307px;
+}
+
+.i-discipline {
+    background: url(../icon_svg/comp-icons.png) no-repeat -40px -172px;
+}
+
+/*------------------------Jury page------------------------*/
+.jury-photo {
+    width: 215px;
+    display: block;
+}
+
+.jury-tabs span {
+    display: block;
+    text-align: center;
+}
+
+.jury-tabs {
+    margin-top: 35px;
+}
+
+.jury-tabs li {
+    display: inline-block;
+    margin-left: 22px;
+}
+
+.jury-tabs li:first-child {
+    margin-left: 0;
+}
+
+.jury-tabs li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.jury-name {
+    background: #6a6a6a;
+    text-transform: uppercase;
+    padding: 8px 0 12px 0;
+}
+
+.jury-specialization {
+    background-color: #515151;
+    padding: 6px 0 8px 0;
+}
+
+.active-name {
+    background-color: #a5e350;
+    color: #515151;
+    font-family: 'PTSansBold', serif;
+}
+
+.jury-tabs li a:hover .jury-name {
+    background-color: #a5e350;
+    color: #515151;
+    font-family: 'PTSansBold', serif;
+}
+
+.jury-description p {
+    font-size: 14px;
+    padding-top: 30px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/*------------------------Results and Participants pages------------------------*/
+.all-winners {
+    margin-top: 75px;
+}
+
+.all-winners li {
+    display: inline-block;
+    margin: 0 3px 15px 0;
+}
+
+.participants {
+    text-align: right;
+    font-size: 18px;
+    padding-top: 34px;
+}
+
+.participants a {
+    text-transform: uppercase;
+    font-family: 'PTSansBold', serif;
+    text-decoration: none;
+    color: #030000;
+}
+
+.arr-up {
+    display: inline-block;
+    background: url('../icon_svg/arrows.png') no-repeat -40px -94px;
+    padding: 7px;
+    vertical-align: middle;
+    margin-right: 135px;
+}
+
+.arr-down {
+    display: inline-block;
+    background: url('../icon_svg/arrows.png') no-repeat -40px -40px;
+    padding: 7px;
+    vertical-align: middle;
+    margin: 0 135px 0 5px;
+}
+
+.item-age {
+    margin: 0 0 0 5px;
+}
+
+.select-item {
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.select li {
+    display: inline-block;
+}
+
+.additional-item {
+    width: 440px;
+}
+
+.jury-category .arr-up {
+    margin-right: 0;
+}
+
+.filters {
+    text-align: center;
+    padding: 5px 0 22px 0;
+    position: relative;
+}
+
+.drop-down {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    padding: 7px 10px 20px 10px;
+    background-color: #464747;
+}
+
+.drop-down-date {
+    position: absolute;
+    top: 22px;
+    left: 420px;
+    padding: 7px 10px 20px 10px;
+    background-color: #464747;
+}
+
+.financial {
+    margin-top: 43px;
+}
+
+.drop-down-item {
+    display: inline-block;
+    text-align: left;
+    margin-right: 22px;
+}
+
+.drop-down-item:last-of-type {
+    margin-right: 0;
+}
+
+.drop-down-item li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.drop-down-item li a:hover {
+    color: #464747;
+    background-color: #a5e350;
+}
+
+.filter-jury {
+    width: 390px;
+    margin: 0 auto;
+}
+
+.drop-down-age {
+    position: absolute;
+    top: 22px;
+    left: 655px;
+    padding: 7px 10px 20px 10px;
+    background-color: #464747;
+}
+
+/*------------------------News page------------------------*/
+
+.news-description {
+    overflow: hidden;
+}
+
+.list-news {
+    float: left;
+    width: 250px;
+    position: relative;
+}
+
+.news-contents {
+    padding: 35px 0 55px;
+}
+
+.news-contents li {
+    padding: 10px 5px;
+    border-left: 7px solid transparent;
+}
+
+.news-contents li a {
+    color: #373737;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.news-contents li:hover {
+    background-color: #efefef;
+    border-left: 7px solid #a5e350;
+    font-family: 'PTSansBold', serif;
+}
+
+.new-time {
+    display: block;
+    font-size: 9px;
+    padding-top: 5px;
+    color: #6c6c6c;
+}
+
+.news-contents li.current-new {
+    background-color: #efefef;
+    border-left: 7px solid #a5e350;
+    font-family: 'PTSansBold', serif;
+}
+
+.full-new {
+    float: right;
+    width: 650px;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.full-new h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    background-color: #a5e350;
+    padding: 26px 0;
+    color: #373737;
+}
+
+.new-short {
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.new-short img {
+    float: left;
+}
+
+.new-short p {
+    float: right;
+    padding-top: 70px;
+    width: 270px;
+}
+
+.full-new p {
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 37px;
+}
+
+.next-new-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #373737;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.arr-next {
+    background: url('../icon_svg/arrows.png') no-repeat -20px -168px;
+    display: inline-block;
+    text-indent: -9999px;
+    font-size: 17px;
+    width: 15px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+/*------------------------Rules page------------------------*/
+
+.register a,
+.rules-item a {
+    text-decoration: none;
+    color: #2e3d15;
+}
+
+.register ul {
+    padding-top: 20px;
+}
+
+.register ul li {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.register {
+    position: relative;
+    padding: 30px 0 0;
+}
+
+.rules-paragraph {
+    background-color: #d3d3d5;
+    padding-bottom: 32px;
+    margin-top: 35px;
+}
+
+.register h2 {
+    text-transform: uppercase;
+}
+
+.rules-img {
+    float: right;
+    width: 427px;
+}
+
+.rules-info {
+    margin-top: 70px;
+}
+
+.rules-info h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.competition-program {
+    margin-top: 30px;
+}
+
+.competition-program h2 {
+    font-size: 18px;
+    font-family: 'PTSansRegular', Helvetica, serif;
+}
+
+.competition-program p {
+    font-family: 'PTSansBold', Helvetica, serif;
+    text-align: center;
+}
+
+.conditions {
+    padding: 40px 0 0;
+    counter-reset: list;
+}
+
+.conditions li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 38px;
+}
+
+.conditions li:before {
+    counter-increment: list;
+    content: counter(list);
+    background-color: #a5e350;
+    padding: 6px 12px;
+    border-radius: 100%;
+    color: #2e3d15;
+    margin-right: 20px;
+    font-family: 'PTSansBold', serif;
+}
+
+.registration-points {
+    padding-left: 35px;
+}
+
+.registration-points li {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.registration-points li:before {
+    background: url('../icon_svg/rewards-icons.png') no-repeat -20px -20px;
+    padding: 0 7px;
+    margin-right: 10px;
+    line-height: 10px;
+    content: '';
+    vertical-align: middle;
+}
+
+p.reference {
+    float: right;
+    width: 590px;
+    color: #999b98;
+    padding: 60px 0 35px 0;
+}
+
+.rules-item {
+    background-color: #a5e350;
+    padding-bottom: 23px;
+}
+
+.strong-item p {
+    font-size: 24px;
+}
+
+.soloist {
+    float: left;
+}
+
+.duo {
+    float: right;
+}
+
+.competition-program table {
+    margin-top: 19px;
+    width: 438px;
+}
+
+.competition-program td {
+    font-size: 18px;
+    text-align: center;
+    border-right: 2px solid #3b3b3b;
+    border-left: 2px solid #3b3b3b;
+}
+
+.competition-program tr {
+    border-bottom: 2px solid #ebebeb;
+
+}
+
+.competition-program tr:last-child {
+    border-bottom: 2px solid #3b3b3b;
+}
+
+.competition-program th {
+    font-family: 'PTSansBold', serif;
+    /*border-bottom: 2px solid #3b3b3b;*/
+    border: 2px solid #3b3b3b;
+    padding: 3px 10px;
+}
+
+.competition-program h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'PTSansBold', serif;
+    text-align: center;
+}
+
+.competition-program {
+    padding-bottom: 30px;
+}
+
+.rewards {
+    padding-top: 57px;
+}
+
+.rewards li {
+    display: inline-block;
+    margin-right: 160px;
+}
+
+.rewards li:last-child {
+    margin-right: 0;
+}
+
+.i-prize,
+.prize-points {
+    display: block;
+}
+
+.prize-points {
+    color: #999b98;
+    text-align: center;
+}
+
+.rules-info p {
+    text-align: center;
+}
+
+.apply-rules {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.i-prize {
+    margin: 12px auto;
+    position: relative;
+}
+
+.first-prize {
+    background: url('../icon_svg/rewards-icons.png') no-repeat -20px -76px;
+    width: 59px;
+    height: 69px;
+}
+
+.diploma {
+    background: url('../icon_svg/rewards-icons.png') no-repeat -20px -185px;
+    width: 70px;
+    height: 65px;
+}
+
+.second-prize,
+.third-prize {
+    background: url('../icon_svg/rewards-icons.png') no-repeat -20px -290px;
+    width: 49px;
+    height: 71px;
+}
+
+.first-prize:after {
+    content: '1';
+    font-size: 16px;
+    position: absolute;
+    bottom: 44px;
+    right: 26px;
+    display: block;
+    font-family: 'PTSansBold', serif;
+    color: #000;
+}
+
+.second-prize:after {
+    content: '2';
+    font-size: 16px;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    display: block;
+    color: #000;
+    font-family: 'PTSansBold', serif;
+}
+
+.third-prize:after {
+    content: '3';
+    font-size: 16px;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    display: block;
+    color: #000;
+    font-family: 'PTSansBold', serif;
+}
